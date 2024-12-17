@@ -3,7 +3,7 @@ FROM python:3.9-slim
 
 # Instalar dependencias del sistema necesarias para mysqlclient
 RUN apt-get update && apt-get install -y \
-    libmysqlclient-dev \
+    libmariadb-dev \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 

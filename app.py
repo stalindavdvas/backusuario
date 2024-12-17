@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 # Configurar la conexión a la base de datos MySQL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@23.23.45.16/prueba'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@23.23.45.16/pruebas'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Inicializar SQLAlchemy
